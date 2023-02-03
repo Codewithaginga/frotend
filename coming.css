@@ -1,0 +1,38 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background: url('./paul.jpg');
+    min-width: 100%;
+    background-size: cover;
+}
+
+.content > h1{
+    display: block;
+    font-size: 45px;
+    color: white;
+    padding-top: 30px;
+   
+}
+
+.content{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.content > hr{
+    width: 50%;
+    margin: auto;
+   
+} 
+
+.content > p{
+    font-size: 20px;
+    color: white;
+}
